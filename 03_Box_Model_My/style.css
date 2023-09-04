@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poller+One&display=swap");
+
+body {
+    background-image: url(./imges/333849934_860797851691626_8505139355233193391_n.jpg);
+}
+a {
+    color: #fff;
+}
+a:hover {
+    text-decoration: none;
+}
+.container {
+    width: 450px;
+    height: 500px;
+    background-color: rgb(9, 107, 75, 0.7);
+    margin: 250px auto 0 auto;
+    text-align: center;
+    box-shadow: 0 -5px #43d576;
+    border-radius: 0 0 15px 15px;
+    padding-bottom: 20px;
+}
+.container img {
+    width: 120px;
+    height: 120px;
+    margin: -60px 0 30px 0;
+    border: 5px solid #43d576;
+    border-radius: 50%;
+}
+input[type="text"],
+input[type="password"] {
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    padding-left: 60px;
+}
+.dws-submit {
+    padding: 13px 30px;
+    margin: 5px 0 20px 0;
+    font-size: 15px;
+    background-color: #43d576;
+    border: none;
+    border-bottom: 4px solid #aaf110;
+    cursor: pointer;
+}
+.dws-submit:hover {
+    transition: all 0.5s;
+    background: #dbd108;
+    color: #0c0c0c;
+}
+.dws-input::before {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    content: "";
+    background-image: url(/imges/free-icon-user-181549.png);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 24px;
+    height: 46px;
+    padding: 18px 0 0 18px;
+    color: #3d0ff5;
+}
+.dws-input:nth-child(2)::before{
+    background-image:url(./imges/free-icon-font-edit-3917361.png);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 24px;
+    height: 46px;
+    padding: 18px 0 0 18px;
+}
+.dws-input:hover::before{
+    color: #13eb29;
+    transition: all 0.3s;
+}
+
+.dws-input input:hover{
+    box-shadow:0 0 6px 3px rgba(58, 219, 253, 0.35)
+}
+.social img{
+    color: #fff;
+   font-size: 20px;
+   height: 30px;
+   width: 30px;
+   padding: 20px;
+   margin: 5px;
+   border:1px solid #3d0ff5;
+ }
+ .social img:hover{
+    background-color: #fff;
+   
+ }

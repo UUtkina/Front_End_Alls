@@ -1,0 +1,44 @@
+.blue, .red, .green, .orange, .yellow {
+    height: 100px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.blue {
+    background-color:blue;
+}
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color:yellow ;
+}
+
+[class*=container] {
+    border: 1px solid #000000;
+  }
+
+  .col {
+
+    height: 100px;
+
+    background-color: green;
+
+}
+
+.fluid-color {
+
+    height: 100px;
+
+    background-color: red;
+
+}

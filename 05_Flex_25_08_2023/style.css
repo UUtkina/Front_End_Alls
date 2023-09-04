@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poller+One&display=swap");
+* {
+    margin: 0;
+}
+body {
+    font-family: "Poller One", cursive;
+    background-image: url("./imges/sky.jpg");
+    color: #e3e60f;
+    background-attachment: fixed;
+}
+head {
+    background-color: rgba(60, 69, 67, 0.6);
+    border-radius: 15px 15px 0 0;
+}
+footer {
+    background-color: rgba(60, 69, 67, 0.6);
+    border-radius: 0 0 15px 15px;
+    height: 6rem;
+    /* em от значения свойства font-size элемента
+    rem от значения свойства font-size тега <html> не зависит от шрифтов родителя */
+    position: relative;
+    clear: both;
+}
+nav > ul {
+    display: flex;
+    list-style: none;
+    /* отключение точек списка */
+    /* height: 100px; */
+    /* border: 5px solid rgb(223, 226, 22); */
+    padding: 0;
+    position: fixed;
+    top: 5px;
+    left: 40px;
+}
+li {
+    /* width: 45%; */
+    text-align: center;
+    /* border: 5px solid white; */
+}
+h1 {
+    text-align: center;
+    font-size: 2em;
+    padding: 0.5em 0;
+}
+.left {
+    float: left;
+    width: 25%;
+    margin: 5px 10px 0 5px;
+}
+.right {
+    float: right;
+    width: 50%;
+    margin: 5px 5px 0;
+    border: 1px solid #e3e60f;
+    border-radius: 0 0 15px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /*  justify-content: space-evenly; одинаковое расстояние между елементами */
+}
+.right > h2 {
+    text-align: center;
+    width: 100%;
+}
+img {
+    width: 100%;
+}
+.right > img {
+    width: 32%;
+}
+.bottomLeft{
+    border-bottom-left-radius: 15px;
+}
+.bottomRight{
+    border-bottom-right-radius: 15px;
+}
+.farGalaxy{
+    font-size: 2em;
+}

@@ -1,0 +1,18 @@
+h2 {
+    font-size: 24px;
+}
+p {
+    font-style: italic;
+}
+title {
+    font-size: xx-large;
+}
+section {
+    background-color: rgb(170, 193, 179);
+}
+ol {
+    background-color: bisque;
+}
+ol {
+    font-style: oblique;
+}

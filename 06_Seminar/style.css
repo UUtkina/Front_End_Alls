@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+}
+.header{
+    background-color: blueviolet;
+    height: 80px;
+}
+.navigation{
+    height: 100%;
+}
+.nav-elements{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 40px;
+    list-style-type: none;
+    margin-top: 0;
+
+
+}
+.link{
+    text-decoration: none;
+    font-size: 40px;
+    color: #fff;
+    &:hover{
+        color: #22cb6b;
+    }
+}
+
+.container {
+    display: flex;
+    row-gap: 30px;
+    column-gap: 50px;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.background-pineapple {
+    background-image: url(https://images.unsplash.com/photo-1550258987-190a2d41a8ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+}
+.card {
+    height: 450px;
+    width: 300px;
+    background-size: contain;
+    /* contain - когда картинка помещается во внутрь и сохраняет пропорции 
+    cover - картинка растягивается и занимает все доступное пространство */
+    background-repeat: no-repeat;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.btn-buy {
+    width: fit-content;
+    margin-bottom: 10%;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: aliceblue;
+    font-size: 25px;
+    &:hover {
+        background-color: rgb(32, 175, 54);
+    }
+
+}

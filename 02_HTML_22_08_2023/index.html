@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title>HTML(part 2)</title>
+        <style>
+            /* по имени тега */
+            h1{
+                text-align: center;
+            
+            /* по имени класса */
+            .bg-color{
+                background-color: azure;
+            }
+            /* по ID */
+            #header{
+                font-size: 25px;
+            }
+        </style>
+        <!-- ./ - остаться в той же директории -->
+        <!--  ../ - выйти во внешнюю директории-->
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        <!-- Принцип позиционирования блочных и строчных элементов -->
+        <h1>
+            Hello word!
+            <h2>Hello again!</h2>
+        </h1>
+        <a href="htt:www.gogle.com">
+            Сс_лка на гугл
+
+            <a href="htt:www.Facebook.com"> Сс_лка на Facebook </a>
+        </a>
+        <!-- Блочный элемент(div) -->
+        <!-- Строчный элемент(span) -->
+        <div>
+            <p>
+                This is a text from paragraph
+
+                <span> and span </span>
+            </p>
+        </div>
+        <!-- Семантический подход: -->
+        <!-- Шапка сайта -->
+        <head>
+            <!-- Навигационное меню -->
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/about">About</a>
+                    </li>
+
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+        </head>
+        <!-- Основная часть сайта -->
+        <main>
+            <!-- Пагинация (от лат. pagina — страница) — это структурирование большого объема информации на сайте, 
+    путем ее разделения на отдельные страницы. Простыми словами, пагинация — это постраничный вывод данных. -->
+            <section>
+                <h1>My First Blog posts</h1>
+                <p>Paster by John on August 22.08.23</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Recusandae culpa iure a ipsa reprehenderit voluptates fuga
+                    nemo sint similique beatae.
+                </p>
+                <p><a href="/blog/1">Read more</a></p>
+            </section>
+            <section>
+                <h1>My Second Blog posts</h1>
+                <p>Paster by John on August 23.08.23</p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Architecto odit nesciunt excepturi quos dolorem quam
+                    quisquam ipsa culpa nisi cumque sint illum est quidem saepe
+                    placeat eum, incidunt similique explicabo! culpa iure a ipsa
+                    reprehenderit voluptates fuga nemo sint similique beatae.
+                </p>
+                <p><a href="/blog/2">Read more</a></p>
+            </section>
+            <section class="bg-color color1">
+                <h1 id="header">My Third Blog posts</h1>
+                <p>Paster by John on August 24.08.23</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Reprehenderit non nobis officiis architecto quasi voluptatem
+                    ut assumenda totam, doloribus autem aliquam exercitationem
+                    inventore ullam tempora reiciendis debitis cumque odio
+                    repellat!
+                </p>
+                <p><a href="/blog/3">Read more</a></p>
+            </section>
+        </main>
+        <!-- Подвал сайта -->
+        <footer style="color: blue;font-size: 20px;" class="bg-color">
+            <!-- Символ  &copy;-->
+            <p>&copy;2023 My blog</p>
+        </footer>
+        <!-- CSS -->
+        <!-- Как можно настроить стилистику для элемента ?
+        1. по имени тега(все теги с этим именем)
+        2. по имени класса элемента(все теги с данным классом)
+        3. по ID элемента
+         Где можно настроить стилистику для элемента?
+         1. Inline(указывается в качестве атрибута style="color: blue;font-size: 20px;" )
+         2. Internal (настройка отдельным тегом  <style>
+            /* тег для настройки */ </style>)
+         3.External стили (настройка в отдельном файле)
+    -->
+    </body>
+</html>

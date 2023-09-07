@@ -1,0 +1,39 @@
+h1{
+    text-align: left;
+    margin-bottom: 5%;
+    padding: 22px;
+}
+
+body {
+    display: block;
+    margin: 8px;
+    padding-left: 40px;
+    padding-top: 30px;
+   
+}
+
+#nameB {
+    width: 250px;
+    line-height: 1.5;
+
+}
+
+
+
+#userInfoContainer {
+    display: none;
+    position: relative;
+    width: 250;
+    border-radius: 2em;
+    background-color: rgb(205, 217, 217);
+    max-width: 300px;
+    margin-left: 385px;
+    margin-right: 50px;
+    padding: 1%;
+    border-top: 2px dotted #11d71b;
+    border-left: 2px dotted #12bf66;
+    top: -250px;
+}
+li:hover{
+    background-color: rgb(205, 217, 217);;
+}

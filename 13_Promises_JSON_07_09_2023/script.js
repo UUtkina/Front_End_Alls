@@ -23,8 +23,8 @@ fetch(`https://jsonplaceholder.typicode.com/users`)
 
                     const div = document.createElement("div");
                     div.innerHTML = `
-                    <p>ID:${userInfo.id}<p>
-                    <p>Name:${userInfo.name}<p>
+                    <p>ID:${userInfo.id}</p>
+                    <h2>Name:${userInfo.name}</h2>
                     <p>Unsername:${userInfo.unsername}<p>
                     <p>Email:${userInfo.email}<p>
                     <p>Address:

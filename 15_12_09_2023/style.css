@@ -1,0 +1,45 @@
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 53px;
+    margin-block-end: 53px;
+    margin-inline-start: 66px;
+    margin-inline-end: 36px;
+    font-weight: bold;
+}
+
+input {
+    font-style: italic;
+    font-weight:200;
+    font-stretch: ultra-expanded;
+    text-rendering: auto;
+    cursor: initial;
+    background-color: rgb(241, 240, 237);
+    margin: 10px;
+    padding: 5px 20px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    margin-block-start: 10px;
+    margin-block-end: 53px;
+    margin-inline-end: 30px;
+}
+
+button{
+    margin: 10px;
+    padding: 5px 20px;
+    background-color: rgb(234, 179, 14);
+    cursor: pointer;
+
+}
+
+#weatherContainer {
+    display: none;
+    list-style-type: none;
+    margin: 10px;
+    padding: 20px;
+    width: 60%;
+   background-color: rgb(233, 238, 238);
+   border-radius: 5px;
+}

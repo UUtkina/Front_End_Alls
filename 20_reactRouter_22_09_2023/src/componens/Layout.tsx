@@ -18,7 +18,7 @@ const Layout = () => {
                 <Link to='/coment'> Coment from nav</Link>
                 </li>
                 <li>
-                <Link to='/todo'>ToDo from nav</Link>
+                <Link to='/todo'>To git Do from nav</Link>
                 </li>
             </ul>
         </nav>
